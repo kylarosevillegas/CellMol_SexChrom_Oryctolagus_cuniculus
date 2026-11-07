@@ -630,13 +630,13 @@ Therefore, chromosome lengths or the assembly FASTA alone cannot be used to infe
 
 # 14. Interpretation
 
-The X:A ratio of 0.827 indicates an XX-like chromosome dosage under the classroom analysis guidelines. In an ordinary diploid XX/XY system, an XX individual is expected to have an X:A ratio near 1.0, whereas an XY individual is expected to have a ratio near 0.5.
+The observed X:A ratio of 0.827 falls within the classroom threshold for an XX-like chromosome dosage interpretation. In a typical diploid XX/XY system, an XX individual is expected to have an X:A ratio near 1.0, whereas an XY individual is expected to have a ratio near 0.5.
 
-The observed value is therefore more consistent with two X copies than one X copy.
+However, the relatively low median autosomal sequencing depth (5.104×) may reduce the reliability of this estimate. Because the WGS BioSample metadata reports the donor as male, the result represents a discrepancy between the sequence-based inference and the recorded metadata.
 
-However, the WGS BioSample is reported as male. This creates a discordance between the sequence-based inference and the recorded metadata.
+The observed X:A ratio suggests an XX-like read-depth pattern, but it does not confirm that the individual has two X chromosomes. The absence of an annotated Y chromosome in the reference assembly also prevents a reliable Y:A dosage assessment. Furthermore, the assembly donor and WGS donor are different individuals.
 
-The discrepancy should not be ignored or artificially corrected. The sequence result should be reported as an **XX-like read-depth inference**, while the metadata should be reported separately as male.
+Therefore, the sequence-based result should be reported as an XX-like read-depth inference, while the WGS metadata should be reported separately as male. Further validation using higher sequencing coverage, appropriate sex-chromosome references, and independent genetic evidence is necessary before drawing a definitive conclusion about the donor's sex-chromosome complement.
 
 ---
 
